@@ -23,4 +23,5 @@
             </tr>
         </table>
     </form>
+    <%=msg %>
 </asp:Content>

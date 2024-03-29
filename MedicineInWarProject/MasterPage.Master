@@ -2,6 +2,19 @@
 
 <!DOCTYPE html>
 
+<script>
+    function myTimer() {
+        var d = new Date();
+
+        var t1 = d.toLocaleDateString();
+        var t2 = d.toLocaleTimeString();
+        var t = t1 + "<br />" + t2;
+        document.getElementById("myClock").innerHTML = t;
+    }
+
+    setInterval("myTimer()", 1000);
+</script>
+
 <html>
 <head runat="server">
     <title>MedicineInWar</title>
@@ -51,16 +64,30 @@
         color: navy;
         text-align: center;
     }
+    .clock{
+        text-align: center;
+        color: navy;
+    }
 </style>
 </head>
 <body>
      <table class="mpTable">
      <tr>
-         <td class="mpHeader"> <!--  שורה 1 - כותרת האתר  -->
-             <h1 id="top" class="mpH1">רפואה בעקבות המלחמה - מלחמת חרבות ברזל</h1>
-         </td>
-          <td style="width: 20%; text-align: center;">
-            <%= loginMsg %>
+         <td class="mpHeader"> 
+             <!--  שורה 1 - כותרת האתר  -->
+             <table>
+                 <tr>
+                    <td style="width: 200px;">
+                        <%= loginMsg %>
+                    </td>
+                    <td style="width: 80%;">
+                        <h1 id="top" class="mpH1">רפואה בעקבות המלחמה - מלחמת חרבות ברזל</h1>
+                    </td>
+                     <td style="width: 200px;">
+                        <h3 class="clock" id="myClock"></h3>
+                     </td>
+                 </tr>
+             </table>
          </td>
      </tr>
      <tr>

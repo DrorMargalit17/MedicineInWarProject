@@ -23,7 +23,7 @@ namespace MedicineInWarProject
             }
             else
             {
-                loginMsg += "[<a href = 'UpdateUser.aspx'>עדכון פרטים</a>]";
+                loginMsg += "[<a href = 'UpdateUser.aspx'>עדכון פרטים</a>] <br />";
                 loginMsg += "[<a href = 'logout.aspx'>התנתק</a>]";
             }
         }
