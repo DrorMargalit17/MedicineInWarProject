@@ -59,7 +59,9 @@
          <td class="mpHeader"> <!--  שורה 1 - כותרת האתר  -->
              <h1 id="top" class="mpH1">רפואה בעקבות המלחמה - מלחמת חרבות ברזל</h1>
          </td>
-
+          <td style="width: 20%; text-align: center;">
+            <%= loginMsg %>
+         </td>
      </tr>
      <tr>
          <td class="mpMenu"> <!--  שורה 2 - שורת תפריטים -->
