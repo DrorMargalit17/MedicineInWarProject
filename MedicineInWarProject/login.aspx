@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="MedicineInWarProject.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
      <style>
-        table{margin: 0px auto; direction: ltr; text-align: center; border: 1px solid black;}
+        table{margin: 0px auto; direction: rtl; text-align: center; border: 1px solid black;}
+        h3{text-align: center; margin: 0px auto; }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -23,5 +24,6 @@
             </tr>
         </table>
     </form>
-    <%=msg %>
+
+    <br /><h3><%=msg %></h3>
 </asp:Content>

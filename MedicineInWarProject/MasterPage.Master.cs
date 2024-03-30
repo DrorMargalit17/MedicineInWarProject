@@ -18,13 +18,13 @@ namespace MedicineInWarProject
 
             if (Session["uName"].ToString() == "אורח")
             {
-                loginMsg += "[<a href = 'SignUpForm.aspx'>הרשם</a>] <br />";
-                loginMsg += "[<a href = 'login.aspx'>התחבר</a>]";
+                loginMsg += "<a href = 'SignUpForm.aspx'>" + "<img src = 'pics/signUpButton.png' style='height: 30px;' />" + "</a> <br />";
+                loginMsg += "<a href = 'login.aspx'>" + "<img src = 'pics/signInButton.png' style='height: 30px;' />" + "</a>";
             }
             else
             {
-                loginMsg += "[<a href = 'UpdateUser.aspx'>עדכון פרטים</a>] <br />";
-                loginMsg += "[<a href = 'logout.aspx'>התנתק</a>]";
+                loginMsg += "<a href = 'UpdateUser.aspx'>" + "<img src='pics/updateDataButton.png' style='height: 30px;' />" + "</a> <br />";
+                loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
             }
         }
     }

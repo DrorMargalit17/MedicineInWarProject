@@ -4,7 +4,10 @@
     <style>
        h1{text-align: center;}
        input{padding: 10px 50px; margin: 4px 2px; cursor: pointer; border: 2px black solid; text-align: center;}
-   </style>        
+       table{margin: 0px auto; border: 2px double black}
+       .title{font-size: 15px; font-family: 'Guttman Yad-Brush';}
+
+   </style>         
     <!-- ~~~~~~~~~~~~~~~~signUp Form validation check~~~~~~~~~~~~~~~~~~~~~ -->
     <script>
         /*email validation check functions*/
@@ -347,7 +350,7 @@
 <form method="post" runat="server" onsubmit="return chkForm();" >
     <table>
         <tr>
-            <td>שם משתמש</td>
+            <td class="title">שם משתמש: </td>
             <td>
                 <input type="text" id ="uName" name="uName" class="input"/>
             </td >
@@ -358,7 +361,7 @@
             </td>
         </tr>
          <tr>
-            <td>שם פרטי</td>
+            <td class="title">שם פרטי: </td>
             <td>
                 <input type="text" id ="fName" name="fName" class="input"/>
             </td>
@@ -369,7 +372,7 @@
             </td>    
         </tr>
         <tr>
-            <td>שם משפחה</td>
+            <td class="title">שם משפחה: </td>
             <td>
                 <input type="text" id ="lName" name="lName" class="input"/>
             </td>
@@ -380,7 +383,7 @@
             </td>
         </tr>
         <tr>
-            <td>כתובת מייל</td>
+            <td class="title">כתובת מייל: </td>
             <td>
                 <input type="text" id="email" name="email" class="input" />
             </td>
@@ -391,7 +394,7 @@
             </td>
         </tr>
         <tr>
-            <td>מגדר</td>
+            <td class="title">מגדר: </td>
             <td>
                 <input type="radio" name="gender" value="male"/>זכר
                 <input type="radio" name ="gender" value="female"/>נקבה
@@ -403,7 +406,7 @@
             </td>
         </tr>
         <tr>
-            <td>מספר טלפון</td>
+            <td class="title">מספר טלפון: </td> 
             <td dir ="ltr">
                 <select name ="prefix" >
                     <option value ="050">050</option>
@@ -421,7 +424,7 @@
                     <option value ="077">077</option>
                 </select>
                 
-                &nbsp;&nbsp; - &nbsp;&nbsp;
+                &nbsp;&nbsp; - &nbsp;&nbsp; 
                <input type ="text" name ="phoneNum" id="phoneNum" />
             </td>
             <td>
@@ -431,7 +434,7 @@
             </td>
         </tr>
         <tr>
-            <td>עיר מגורים</td>
+            <td class="title">עיר מגורים: </td>
             <td>
                 <select name="city" id="city">
                     <option value="other">בחר יישוב מגורים</option>
@@ -453,7 +456,7 @@
             </td>
         </tr>
         <tr>
-            <td>שנת לידה</td>
+            <td class="title">שנת לידה: </td>
             <td>
                 <select name ="yearBorn" id ="yearBorn">
                     <%=yrBorn %>
@@ -462,7 +465,7 @@
             <td> </td>
         </tr>
         <tr>
-            <td>תחביבים</td>
+            <td class="title">תחביבים: </td>
             <td>
                 <table style ="width: 550px;">
                     <tr>
@@ -476,7 +479,7 @@
             </td>
         </tr>
         <tr>
-            <td>סיסמה</td>
+            <td class="title">סיסמה: </td>
             <td>
                 <input type="password" name="passW" id="passW" size="10" />
                 <span style="color: red;"> * 6-10 תווים</span>
@@ -488,7 +491,7 @@
             </td>
         </tr>
         <tr>
-            <td>אימות סיסמה</td>
+            <td class="title">אימות סיסמה: </td>
             <td>
                 <input type="password" name="passWComfirm" id="passWComfirm" size="10" />
                 <span style="color: red;"> * 6-10 תווים</span>
