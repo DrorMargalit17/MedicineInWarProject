@@ -23,8 +23,16 @@ namespace MedicineInWarProject
             }
             else
             {
-                loginMsg += "<a href = 'UpdateUser.aspx'>" + "<img src='pics/updateDataButton.png' style='height: 30px;' />" + "</a> <br />";
-                loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
+                if (Session["admin"].ToString() == "yes")
+                {
+                    loginMsg += "[<a href = 'managerPage.aspx'>דף ניהול</a>] <br />";
+                    loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
+                }
+                else
+                {
+                    loginMsg += "<a href = 'UpdateUser.aspx'>" + "<img src='pics/updateDataButton.png' style='height: 30px;' />" + "</a> <br />";
+                    loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
+                }
             }
         }
     }
