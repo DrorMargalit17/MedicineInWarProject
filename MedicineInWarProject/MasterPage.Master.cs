@@ -16,24 +16,21 @@ namespace MedicineInWarProject
             loginMsg += Session["fName"].ToString();
             loginMsg += "</h3>";
 
-            if (Session["uName"].ToString() == "אורח")
+            if (Session["fName"].ToString() == "אורח")
             {
                 loginMsg += "<a href = 'SignUpForm.aspx'>" + "<img src = 'pics/signUpButton.png' style='height: 30px;' />" + "</a> <br />";
                 loginMsg += "<a href = 'login.aspx'>" + "<img src = 'pics/signInButton.png' style='height: 30px;' />" + "</a>";
             }
+            else if(Session["admin"].ToString() == "yes")
+            { 
+                loginMsg += "<a href = 'managerPage.aspx'>" + "<img src = 'pics/managePageButton.png' style='height: 30px'; />" + "</a> <br />";
+                loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
+            }
             else
             {
-                if (Session["admin"].ToString() == "yes")
-                {
-                    loginMsg += "[<a href = 'managerPage.aspx'>דף ניהול</a>] <br />";
-                    loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
-                }
-                else
-                {
-                    loginMsg += "<a href = 'UpdateUser.aspx'>" + "<img src='pics/updateDataButton.png' style='height: 30px;' />" + "</a> <br />";
-                    loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
-                }
-            }
+                loginMsg += "<a href = 'UpdateUser.aspx'>" + "<img src='pics/updateDataButton.png' style='height: 30px;' />" + "</a> <br />";
+                loginMsg += "<a href = 'logout.aspx'>" + "<img src ='pics/logOutButton.png' style='height:30px;' />" + "</a>";
+            }  
         }
     }
 }

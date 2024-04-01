@@ -142,6 +142,7 @@
     <Content Include="pics\hospitel1.jpeg" />
     <Content Include="pics\hospitel2.jpeg" />
     <Content Include="pics\logOutButton.png" />
+    <Content Include="pics\managePageButton.png" />
     <Content Include="pics\signInButton.png" />
     <Content Include="pics\signUpButton.png" />
     <Content Include="pics\updateDataButton.png" />

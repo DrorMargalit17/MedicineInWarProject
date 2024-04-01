@@ -93,7 +93,8 @@
      <tr>
          <td class="mpMenu"> <!--  שורה 2 - שורת תפריטים -->
              [<a href="HomePage.aspx">HomePage</a>]
-             [<a href="MedicineInWarMainPage.aspx">MedicineInWarMainPage.aspx</a>]
+             [<a href="MedicineInWarMainPage.aspx">MedicineInWarMainPage</a>]
+             [<a href="loginAdmin.aspx">loginAdmin</a>]
          </td>
      </tr>
      <tr>
