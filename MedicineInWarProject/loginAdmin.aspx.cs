@@ -41,7 +41,6 @@ namespace MedicineInWarProject
                     Session["admin"] = "yes";
                     Response.Redirect("MedicineInWarMainPage.aspx");
                 }
-
             }
         }
     }

@@ -90,9 +90,5 @@
 </form>
 </center>
     <h2><%=sqlSelect %></h2>
-<table style ="border: 1px solid black; margin: 0px auto";>
-    <%=st %>
-</table>
-
 <h3><%= msg %></h3>
 </asp:Content>

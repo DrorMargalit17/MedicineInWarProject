@@ -202,6 +202,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="ShowTable.aspx" />
     <Content Include="SignUpForm.aspx" />
     <Content Include="SimpleQuery.aspx" />
     <Content Include="Site.Master" />
@@ -323,6 +324,13 @@
       <DependentUpon>MedicineInWarMainPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowTable.aspx.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTable.aspx.designer.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SignUpForm.aspx.cs">
       <DependentUpon>SignUpForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

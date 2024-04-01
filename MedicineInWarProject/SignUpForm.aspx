@@ -469,11 +469,11 @@
             <td>
                 <table style ="width: 550px;">
                     <tr>
-                        <td><input type="checkbox" name="hobby" value="Computers" />Computers</td>
-                        <td><input type="checkbox" name="hobby" value="Music" />Music</td>
-                        <td><input type="checkbox" name="hobby" value="Movies" />Movies</td>
-                        <td><input type="checkbox" name="hobby" value="TV" />TV</td>
-                        <td><input type="checkbox" name="hobby" value="Horses" />Horses</td>
+                        <td><input type="checkbox" name="hobby" value="1" />Computers</td>
+                        <td><input type="checkbox" name="hobby" value="2" />Music</td>
+                        <td><input type="checkbox" name="hobby" value="3" />Movies</td>
+                        <td><input type="checkbox" name="hobby" value="4" />TV</td>
+                        <td><input type="checkbox" name="hobby" value="5" />Horses</td>
                     </tr>
                 </table>
             </td>
@@ -509,5 +509,10 @@
         </tr>       
     </table>
 </form>
-    <%=st %>
+    <table border ="1" style="margin: 0px auto; direction: ltr;">
+        <%=st %>
+    </table>
+    <h3 style="direction: ltr; text-align: center;"><%= sqlInsert %></h3>
+
+    <h3><%=msg %></h3>
 </asp:Content>
