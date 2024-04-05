@@ -15,7 +15,6 @@ namespace MedicineInWarProject
             loginMsg = "<h3>שלום ";
             loginMsg += Session["fName"].ToString();
             loginMsg += "</h3>";
-
             if (Session["fName"].ToString() == "אורח")
             {
                 loginMsg += "<a href = 'SignUpForm.aspx'>" + "<img src = 'pics/signUpButton.png' style='height: 30px;' />" + "</a> <br />";
