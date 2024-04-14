@@ -2,10 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- ~~~~~~~~~~~~~~~~signUp Form Style Set~~~~~~~~~~~~~~~~~~~~~ -->
     <style>
-       h1{text-align: center;}
+       h1{text-align: center; color: white;}
        input{padding: 10px 50px; margin: 4px 2px; cursor: pointer; border: 2px black solid; text-align: center;}
-       table{margin: 0px auto; border: 2px double black}
+       .formTable{margin: 0px auto; border: 2px double black; border-radius:10px;}
        .title{font-size: 15px; font-family: 'Guttman Yad-Brush';}
+       .header{background-color: black; width: 500px; margin: 0px auto; border-radius:10px;}
+       .formTable1{background-color: darkgray; width: 500px; margin: 0px auto; border-radius:10px;}
 
    </style>         
     <!-- ~~~~~~~~~~~~~~~~signUp Form validation check~~~~~~~~~~~~~~~~~~~~~ -->
@@ -97,7 +99,7 @@
                 i++;
             }
             if (counter < 1)
-                return true;
+                return true; 
             else
                 return false;
         }  
@@ -346,9 +348,14 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>טופס רישום</h1>
 <form method="post" runat="server" onsubmit="return chkForm();" >
-    <table>
+    <br />
+    <table class="formTable">
+        <tr>
+            <td class="header" colspan="2">
+                <h1>טופס רישום</h1>
+            </td>
+        </tr>
         <tr>
             <td class="title">שם משתמש: </td>
             <td>

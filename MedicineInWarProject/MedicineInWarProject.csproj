@@ -123,8 +123,24 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DeleteRecord.aspx" />
+    <Content Include="deleteUser.aspx" />
     <Content Include="DemoPage.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="Gallery.aspx" />
+    <Content Include="GalleryPics\mainpic.jpg" />
+    <Content Include="GalleryPics\pic1.jpg" />
+    <Content Include="GalleryPics\pic10.jpg" />
+    <Content Include="GalleryPics\pic11.jpg" />
+    <Content Include="GalleryPics\pic12.jpg" />
+    <Content Include="GalleryPics\pic2.jpeg" />
+    <Content Include="GalleryPics\pic3.jpg" />
+    <Content Include="GalleryPics\pic4.jpg" />
+    <Content Include="GalleryPics\pic5.jpeg" />
+    <Content Include="GalleryPics\pic6.jpeg" />
+    <Content Include="GalleryPics\pic7.jpg" />
+    <Content Include="GalleryPics\pic8.jpg" />
+    <Content Include="GalleryPics\pic9.jpg" />
     <Content Include="Global.asax" />
     <Content Include="healthFunds.aspx" />
     <Content Include="HomePage.aspx" />
@@ -135,17 +151,40 @@
     <Content Include="managerPage.aspx" />
     <Content Include="MDA.aspx" />
     <Content Include="MedicineInWarMainPage.aspx" />
+    <Content Include="menuPics\galleryButton.png" />
+    <Content Include="menuPics\galleryButton2.png" />
+    <Content Include="menuPics\loginAdminButton.png" />
+    <Content Include="menuPics\loginAdminButton2.png" />
+    <Content Include="menuPics\logoutButton.png" />
+    <Content Include="menuPics\logoutButton2.png" />
+    <Content Include="menuPics\managerButton.png" />
+    <Content Include="menuPics\managerButton2.png" />
+    <Content Include="menuPics\signInButton.png" />
+    <Content Include="menuPics\signInButton2.png" />
+    <Content Include="menuPics\signUpButton.png" />
+    <Content Include="menuPics\signUpButton2.png" />
+    <Content Include="menuPics\survayButton.png" />
+    <Content Include="menuPics\survayButton2.png" />
+    <Content Include="menuPics\updateButton.png" />
+    <Content Include="menuPics\updateButton2.png" />
     <Content Include="pics\backButton.png" />
     <Content Include="pics\backButton1.png" />
     <Content Include="pics\backButton2.png" />
     <Content Include="pics\BackButton3.png" />
+    <Content Include="pics\banner.png" />
+    <Content Include="pics\Banner2.png" />
+    <Content Include="pics\blue.png" />
+    <Content Include="pics\green.png" />
     <Content Include="pics\hospitel1.jpeg" />
     <Content Include="pics\hospitel2.jpeg" />
     <Content Include="pics\logOutButton.png" />
     <Content Include="pics\managePageButton.png" />
+    <Content Include="pics\MDA1.jpg" />
+    <Content Include="pics\MDA2.jpg" />
+    <Content Include="pics\red.png" />
     <Content Include="pics\signInButton.png" />
-    <Content Include="pics\signUpButton.png" />
     <Content Include="pics\updateDataButton.png" />
+    <Content Include="pics\yellow.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -206,6 +245,7 @@
     <Content Include="SignUpForm.aspx" />
     <Content Include="SimpleQuery.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="Survey.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -243,12 +283,33 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteRecord.aspx.cs">
+      <DependentUpon>DeleteRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteRecord.aspx.designer.cs">
+      <DependentUpon>DeleteRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deleteUser.aspx.cs">
+      <DependentUpon>deleteUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deleteUser.aspx.designer.cs">
+      <DependentUpon>deleteUser.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DemoPage.aspx.cs">
       <DependentUpon>DemoPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DemoPage.aspx.designer.cs">
       <DependentUpon>DemoPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -358,6 +419,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Survey.aspx.cs">
+      <DependentUpon>Survey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Survey.aspx.designer.cs">
+      <DependentUpon>Survey.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

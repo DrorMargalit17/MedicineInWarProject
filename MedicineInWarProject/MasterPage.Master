@@ -13,6 +13,10 @@
     }
 
     setInterval("myTimer()", 1000);
+
+    function showIcon(icName, icPic) {
+        icName.src = icPic
+    }
 </script>
 
 <html>
@@ -68,6 +72,14 @@
         text-align: center;
         color: navy;
     }
+    .link{
+        color: white;
+        font-weight: bold;
+        font-family: Aharoni;
+        text-decoration: none;
+    }
+    .menuPics{height: 35px; width: 100px}
+    .signPics{width: 80px; height: 40px;}
 </style>
 </head>
 <body>
@@ -81,7 +93,7 @@
                         <%= loginMsg %>
                     </td>
                     <td style="width: 80%;">
-                        <h1 id="top" class="mpH1">רפואה בעקבות המלחמה - מלחמת חרבות ברזל</h1>
+                        <img src="pics/banner.png" style="width:600px; height:150px" />
                     </td>
                      <td style="width: 200px;">
                         <h3 class="clock" id="myClock"></h3>
@@ -92,9 +104,10 @@
      </tr>
      <tr>
          <td class="mpMenu"> <!--  שורה 2 - שורת תפריטים -->
-             [<a href="HomePage.aspx">HomePage</a>]
-             [<a href="MedicineInWarMainPage.aspx">MedicineInWarMainPage</a>]
-             [<a href="loginAdmin.aspx">loginAdmin</a>]
+             <a href= 'MedicineInWarMainPage.aspx'> <img src='menuPics/homeButton.png' class='menuPics' id='home' onmouseover="showIcon(home, 'menuPics/homeButton2.png')" onmouseout="showIcon(home, 'menuPics/homeButton.png')"/></a>
+             <a href= 'loginAdmin.aspx'> <img src='menuPics/loginAdminButton.png' class='menuPics' id='admin' onmouseover="showIcon(admin, 'menuPics/loginAdminButton2.png')" onmouseout="showIcon(admin, 'menuPics/loginAdminButton.png')"/></a>
+             <a href= 'Gallery.aspx'> <img src='menuPics/galleryButton.png' class='menuPics' id='gallery' onmouseover="showIcon(gallery, 'menuPics/galleryButton2.png')" onmouseout="showIcon(gallery, 'menuPics/galleryButton.png')"/></a>
+             <a href= 'Survey.aspx'> <img src='menuPics/survayButton.png' class='menuPics' id='Survey' onmouseover="showIcon(Survey, 'menuPics/survayButton2.png')" onmouseout="showIcon(Survey, 'menuPics/survayButton.png')"/></a>
          </td>
      </tr>
      <tr>
@@ -109,10 +122,21 @@
      </tr>
      <tr>
             <td class ="mpFooter">
+                <table>
+                    <tr>
+                        <td style="width: 30%;"></td>
+                        <td style="width: 60%;">
+                            <a href ="mailto:dropipopi@gmail.com">צור קשר - דרור מרגלית</a>
+                        </td>
+                        <td style="width: 30%; direction: ltr;" >
+                            <%Application["counter"] = (int)Application["counter"] + 1; %>
+                            <%=Application["counter"] %>: מונה מבקרים באתר
+                        </td>
+                    </tr>
+                </table>
                 <h3 class="mpH3">האתר נבנה על ידי דרור מרגלית</h3>
             </td>
         </tr>
-
     </table>
     
 </body>

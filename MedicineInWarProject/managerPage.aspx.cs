@@ -25,6 +25,7 @@ namespace MedicineInWarProject
                 msg += "<h3><a href = 'showTable.aspx'>[הצגת הטבלה]</a></h3>";
                 msg += "<h3><a href = 'SimpleQuery.aspx'>[שאילתה פשוטה]</a></h3>";
                 msg += "<h3><a href = 'ComplexQuery.aspx'>[שאילתה מורכבת]</a></h3>";
+                msg += "<h3><a href = 'deleteUser.aspx'>[מחיקת רשומה מהטבלה]</a></h3>";
             }
         }
     }
