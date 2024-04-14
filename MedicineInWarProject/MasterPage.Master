@@ -71,6 +71,7 @@
     .clock{
         text-align: center;
         color: navy;
+        font-family: 'Comic Sans MS'
     }
     .link{
         color: white;
