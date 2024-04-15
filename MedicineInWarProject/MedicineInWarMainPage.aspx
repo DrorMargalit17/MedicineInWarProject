@@ -105,11 +105,18 @@
 
         <h2 id ="healthFunds">קופות חולים: </h2>
         <p>
-            קופות חולים בלה בלה בלה
+            אירועי 7 באוקטובר והמלחמה שהחלה בעקבותיהם הביאו לתחושות קשות ומורכבות בקרב אזרחי ישראל,
+            כאשר רבים חוו וחווים פגיעה בבריאות הנפשית לצד הבריאות פיזית, בדרגות שונות.
+            ישראלים רבים מדווחים כי מאז תחילת המלחמה מצבם הבריאותי הפיזי והנפשי של האזרחים ירד ירידה דרמטית.
         </p>
         <p>
             <a href="healthFunds.aspx">קרא עוד...</a>
         </p>
+         <div style="text-align: center;">
+             <img src="pics/healthFunds1.jpg" /> &nbsp;&nbsp;
+             <img src="pics/healthFunds2.jpg" />
+        </div>
+        <br />
         <div style="text-align: center">
             <a href="#top">
                 <img src="pics/backButton1.png" 

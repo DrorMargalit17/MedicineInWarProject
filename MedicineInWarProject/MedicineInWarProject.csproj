@@ -175,6 +175,8 @@
     <Content Include="pics\Banner2.png" />
     <Content Include="pics\blue.png" />
     <Content Include="pics\green.png" />
+    <Content Include="pics\healthFunds1.jpg" />
+    <Content Include="pics\healthFunds2.jpg" />
     <Content Include="pics\hospitel1.jpeg" />
     <Content Include="pics\hospitel2.jpeg" />
     <Content Include="pics\logOutButton.png" />

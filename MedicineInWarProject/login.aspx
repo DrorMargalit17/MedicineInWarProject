@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
      <style>
         table{margin: 0px auto; direction: rtl; text-align: center; border: 1px solid black;}
-        h3{text-align: center; margin: 0px auto; }
+        h3{text-align: center; margin: 0px auto;}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

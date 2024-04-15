@@ -94,7 +94,7 @@
                         <%= loginMsg %>
                     </td>
                     <td style="width: 80%;">
-                        <img src="pics/banner.png" style="width:600px; height:150px" />
+                        <img src="pics/banner.png" style="width:550px; height:150px" />
                     </td>
                      <td style="width: 200px;">
                         <h3 class="clock" id="myClock"></h3>
@@ -126,10 +126,10 @@
                 <table>
                     <tr>
                         <td style="width: 30%;"></td>
-                        <td style="width: 60%;">
+                        <td style="width: 60%; text-align:right">
                             <a href ="mailto:dropipopi@gmail.com">צור קשר - דרור מרגלית</a>
                         </td>
-                        <td style="width: 30%; direction: ltr;" >
+                        <td style="width: 30%; direction: ltr; text-align: left; font-size:14pt; font-family: Aharoni" >
                             <%Application["counter"] = (int)Application["counter"] + 1; %>
                             <%=Application["counter"] %>: מונה מבקרים באתר
                         </td>

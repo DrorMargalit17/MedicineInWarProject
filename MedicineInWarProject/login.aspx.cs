@@ -41,7 +41,6 @@ namespace MedicineInWarProject
                     Session["uName"] = table.Rows[0]["uName"];
                     Session["fName"] = table.Rows[0]["fName"];
                     Response.Redirect("MedicineInWarMainPage.aspx");
-
                 }
             }
         }
