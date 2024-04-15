@@ -3,6 +3,7 @@
         <!-- ~~~~~~~~~~~~~~~~signUp Form Style Set~~~~~~~~~~~~~~~~~~~~~ -->
         <style>
            h1{text-align: center; color: white;}
+           h3{text-align:center; font-size:16pt; font-family: 'Comic Sans MS'; font-weight: bold}
            input{padding: 10px 50px; margin: 4px 2px; cursor: pointer; border: 2px black solid; text-align: center;}
            .formTable{margin: 0px auto; border: 2px double black; border-radius:10px;}
            .title{font-size: 15px; font-family: 'Guttman Yad-Brush';}
@@ -322,6 +323,15 @@
                 if (isHebrewPassword(password))
                     passwordMSG = "סיסמה לא יכולה להכיל עברית";
 
+                //Placing the value in passwordMSG 
+                if (passwordMSG != "") {
+                    document.getElementById("mPassword").value = passwordMSG;
+                    document.getElementById("mPassword").style.display = "inline";
+                    return false;
+                }
+                else
+                    document.getElementById("mPassword").style.display = "none";
+
                 //passwordConfirm check//
 
                 //Defending variable: passwordConfirm
@@ -336,14 +346,7 @@
                 else
                     document.getElementById("mPasswordCheck").style.display = "none";   
 
-                //Placing the value in passwordMSG 
-                if (passwordMSG != "") {
-                    document.getElementById("mPassword").value = passwordMSG;
-                    document.getElementById("mPassword").style.display = "inline";
-                    return false;
-                }
-                else
-                    document.getElementById("mPassword").style.display = "none";
+                
             }
         </script>
     </asp:Content>
@@ -516,10 +519,5 @@
             </tr>       
         </table>
     </form>
-        <table border ="1" style="margin: 0px auto; direction: ltr;">
-            <%=st %>
-        </table>
-        <h3 style="direction: ltr; text-align: center;"><%= sqlInsert %></h3>
-
         <h3><%=msg %></h3>
     </asp:Content>

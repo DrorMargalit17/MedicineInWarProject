@@ -87,6 +87,7 @@ namespace MedicineInWarProject
 
                     Helper.DoQuery(fileName, sqlInsert);
                     msg = "sucsses";
+                    Response.Redirect("MedicineInWarMainPage.aspx");
                 }
                     st += "<tr><td>user name: </td><td>" + uName + "</td></tr>";
                     st += "<tr><td>first name: </td><td>" + fName + "</td></tr>";
