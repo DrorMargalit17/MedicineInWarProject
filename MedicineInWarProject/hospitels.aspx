@@ -18,7 +18,7 @@
 
             var i = 1;
             function switchF()
-            {
+            {   
                 j = i % 3;
                 switch (j) {
                     case 0: show(backB1); break;

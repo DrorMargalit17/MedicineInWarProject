@@ -31,7 +31,6 @@ namespace MedicineInWarProject
                 if (length == 0)
                 {
                     msg = "משתמש לא נמצא";
-                    Response.Redirect("login.aspx");
                 }
                 else
                 {

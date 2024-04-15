@@ -9,8 +9,7 @@
            .title{font-size: 15px; font-family: 'Guttman Yad-Brush';}
            .header{background-color: black; width: 500px; margin: 0px auto; border-radius:10px;}
            .formTable1{background-color: darkgray; width: 500px; margin: 0px auto; border-radius:10px;}
-
-       </style>         
+    </style>
         <!-- ~~~~~~~~~~~~~~~~signUp Form validation check~~~~~~~~~~~~~~~~~~~~~ -->
         <script>
             /*email validation check functions*/

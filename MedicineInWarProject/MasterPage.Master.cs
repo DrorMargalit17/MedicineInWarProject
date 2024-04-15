@@ -28,7 +28,7 @@ namespace MedicineInWarProject
             }
             else
             {
-                loginMsg += ("<a href='UpdateUser.aspx'><img src='menuPics/updateButton.png' class='signPics' id='update' onmouseover='showIcon(update, \"menuPics/updateButton2.png\")' onmouseout='showIcon(update, \"menuPics/updateButton.png\")'/></a><br />");
+                loginMsg += ("<a href='updateUser.aspx'><img src='menuPics/updateButton.png' class='signPics' id='update' onmouseover='showIcon(update, \"menuPics/updateButton2.png\")' onmouseout='showIcon(update, \"menuPics/updateButton.png\")'/></a><br />");
                 loginMsg += ("<a href='logout.aspx'><img src='menuPics/logoutButton.png' class='signPics' id='logout' onmouseover='showIcon(logout, \"menuPics/logoutButton2.png\")' onmouseout='showIcon(logout, \"menuPics/logoutButton.png\")'/></a><br />");
             }
         }

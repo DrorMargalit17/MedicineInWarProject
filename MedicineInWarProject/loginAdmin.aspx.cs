@@ -32,7 +32,7 @@ namespace MedicineInWarProject
                 {
                     msg += "<div style='text-align: center;'>";
                     msg += "<h3>אינך מנהל, אינך רשאי לצפות בדף זה</h3>";
-                    msg += "<a href='MedicineInWarMainPage.aspx'>[המשך]</a>";
+                    msg += "<a href='MedicineInWarMainPage.aspx'><img src='pics/backButton1.png' id='pic' class='backButton' alt='backButton' style='height:60px';  /></a>";
                     msg += "</div>";
                 }
                 else
