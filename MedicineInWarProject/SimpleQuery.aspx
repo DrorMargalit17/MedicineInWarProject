@@ -89,6 +89,9 @@
     <input type="submit" name="submit" value="send" />
 </form>
 </center>
+    <table border="1" style="margin: 0px auto";">
+    <%= st %>
+    </table>
     <h2><%=sqlSelect %></h2>
-<h3><%= msg %></h3>
+    <h3><%= msg %></h3>
 </asp:Content>
