@@ -14,7 +14,7 @@ namespace MedicineInWarProject
         public string yrBorn = "";
         public string sqlSelect = "";
         public string msg = "";
-        public string sqlInsert = "";
+        public string sqlInsert = "";   
         protected void Page_Load(object sender, EventArgs e)
         {
             string fileName = ".\\SQLEXPRESS.DRORdb.dbo";

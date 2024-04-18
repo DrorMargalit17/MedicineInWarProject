@@ -6,7 +6,6 @@
         p {font-size: 14pt; color: navy; font-family: 'Guttman Yad-Brush';}
         hr{width: 100%; height: 3px; background-color: #163b70; float: right; }
         img{height: 200px}
-        
     </style>
 
     <script>
