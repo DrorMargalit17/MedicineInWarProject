@@ -466,66 +466,66 @@
                         disabled="disabled" />
             </td>
         </tr>
-        <tr>
-            <td class="title">עיר מגורים: </td>
-            <td>
-                <select name="city" id="city">
-                    <% if (city == "חיפה"){ %>
-                         <option value="חיפה" selected>חיפה</option>
-                    <% }else{ %>
-                         <option value="חיפה">חיפה</option>
-                    <% } %>
+            <tr>
+                <td class="title">עיר מגורים: </td>
+                <td>
+                    <select name="city" id="city">
+                        <% if (city == "חיפה"){ %>
+                             <option value="חיפה" selected>חיפה</option>
+                        <% }else{ %>
+                             <option value="חיפה">חיפה</option>
+                        <% } %>
                     
-                    <% if (city == "תל אביב"){ %>
-                         <option value="תל אביב" selected>תל אביב</option>
-                    <% }else{ %>
-                         <option value="תל אביב">תל אביב</option>
-                    <% } %> 
+                        <% if (city == "תל אביב"){ %>
+                             <option value="תל אביב" selected>תל אביב</option>
+                        <% }else{ %>
+                             <option value="תל אביב">תל אביב</option>
+                        <% } %> 
 
-                    <% if (city == "ירושליים"){ %>
-                         <option value="ירושליים" selected>ירושליים</option>
-                    <% }else{ %>
-                         <option value="ירושליים">ירושליים</option>
-                    <% } %> 
+                        <% if (city == "ירושליים"){ %>
+                             <option value="ירושליים" selected>ירושליים</option>
+                        <% }else{ %>
+                             <option value="ירושליים">ירושליים</option>
+                        <% } %> 
 
-                    <% if (city == "מודיעין"){ %>
-                         <option value="מודיעין" selected>מודיעין</option>
-                    <% }else{ %>
-                         <option value="מודיעין">מודיעין</option>
-                    <% } %> 
+                        <% if (city == "מודיעין"){ %>
+                             <option value="מודיעין" selected>מודיעין</option>
+                        <% }else{ %>
+                             <option value="מודיעין">מודיעין</option>
+                        <% } %> 
 
-                    <% if (city == "באר שבע"){ %>
-                         <option value="באר שבע" selected>באר שבע</option>
-                    <% }else{ %>
-                         <option value="באר שבע">באר שבע</option>
-                    <% } %> 
+                        <% if (city == "באר שבע"){ %>
+                             <option value="באר שבע" selected>באר שבע</option>
+                        <% }else{ %>
+                             <option value="באר שבע">באר שבע</option>
+                        <% } %> 
 
-                    <% if (city == "N'מטולה"){ %>
-                         <option value="מטולה" selected>מטולה</option>
-                    <% }else{ %>
-                         <option value="מטולה">מטולה</option>
-                    <% } %> 
+                        <% if (city == "מטולה"){ %>
+                             <option value="מטולה" selected>מטולה</option>
+                        <% }else{ %>
+                             <option value="מטולה">מטולה</option>
+                        <% } %> 
 
-                    <% if (city == "צפון"){ %>
-                         <option value="צפון" selected>צפון</option>
-                    <% }else{ %>
-                         <option value="צפון">צפון</option>
-                    <% } %> 
+                        <% if (city == "צפון"){ %>
+                             <option value="צפון" selected>צפון</option>
+                        <% }else{ %>
+                             <option value="צפון">צפון</option>
+                        <% } %> 
 
-                    <% if (city == "מרכז"){ %>
-                         <option value="מרכז" selected>מרכז</option>
-                    <% }else{ %>
-                         <option value="מרכז">מרכז</option>
-                    <% } %> 
+                        <% if (city == "מרכז"){ %>
+                             <option value="מרכז" selected>מרכז</option>
+                        <% }else{ %>
+                             <option value="מרכז">מרכז</option>
+                        <% } %> 
 
-                    <% if (city == "דרום"){ %>
-                         <option value="דרום" selected>דרום</option>
-                    <% }else{ %>
-                         <option value="דרום">דרום</option>
-                    <% } %> 
-                </select>
-            </td>
-        </tr>
+                        <% if (city == "דרום"){ %>
+                             <option value="דרום" selected>דרום</option>
+                        <% }else{ %>
+                             <option value="דרום">דרום</option>
+                        <% } %> 
+                    </select>
+                </td>
+            </tr>
             <tr>
                 <td>תחביבים</td>
                 <td>

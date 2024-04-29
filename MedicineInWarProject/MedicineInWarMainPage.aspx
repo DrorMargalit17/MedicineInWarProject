@@ -10,7 +10,7 @@
 
     <script>
         var backB1 = "pics/backButton1.png";
-        var backB2 = "pics/backButton2.png";
+        var backB2 = "pics/backButton2.png";    
         var backB3 = "pics/backButton3.png";
         setInterval("switchF()", 300);
 

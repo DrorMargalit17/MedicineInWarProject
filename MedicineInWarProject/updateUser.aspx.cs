@@ -68,7 +68,7 @@ namespace MedicineInWarProject
 
                 pw = table.Rows[0]["pw"].ToString().Trim();
             }
-            if (this.IsPostBack)
+            if (this.IsPostBack)    
             {
                 fName = Request.Form["fName"];
                 lName = Request.Form["lName"];
