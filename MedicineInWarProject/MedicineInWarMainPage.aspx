@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MedicineInWarMainPage.aspx.cs" Inherits="MedicineInWarProject.MedicineInWarMainPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-        h1 {color: blue; text-align: center; font-family: 'Guttman Yad-Brush';}
+        h1 {color: blue; text-align: center; font-family: 'Guttman Yad-Brush'; font-size: 28pt}
         h2 {font-family: 'Guttman Yad-Brush'; }
-        p {font-size: 14pt; color: navy; font-family: 'Guttman Yad-Brush';}
+        p {font-size: 16pt; color: navy; font-family: 'Guttman Yad-Brush';}
         hr{width: 100%; height: 3px; background-color: #163b70; float: right; }
+        ul{font-size: 15pt}
         img{height: 200px}
     </style>
 
@@ -36,7 +37,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>רפואה בהשפעת המלחמה</h1>
     <hr /> 
-<ul style="margin-top: 20px;">
+    <ul style="margin-top: 20px;">
     <li>
         <a href="#hospitel">
             <h3>בתי חולים</h3>

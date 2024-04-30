@@ -98,6 +98,7 @@ namespace MedicineInWarProject
                 sqlUpdate += "lName = '" + lName + "', ";
                 sqlUpdate += "email = '" + email + "', ";
                 sqlUpdate += "prefix = '" + prefix + "', ";
+                sqlUpdate += "yearBorn = '" + yearBorn + ", ";
                 sqlUpdate += "phone = '" + phone + "', ";
                 sqlUpdate += "city = '" + city + "', ";
                 sqlUpdate += "gender = '" + gender + "', ";

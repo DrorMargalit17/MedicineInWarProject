@@ -1,25 +1,30 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="MedicineInWarProject.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
      <style>
-        table{margin: 0px auto; direction: rtl; text-align: center; border: 1px solid black;}
+        .loginTable{margin: 0px auto; direction: rtl; text-align: center; border: 2px solid black; border-radius: 5px}
+        h1{text-align: center}
         h3{text-align: center; margin: 0px auto;}
+        .title{font-size: 25pt;}
+        input{font-size: 25pt; border-block-color: black}
+        .button{font-size: 30pt; border-radius: 5px; background-color: royalblue; font-family: Aharoni; color: white}
+        .button:hover{background-color: #00ffff; color: black}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form method="post" runat="server">
         <h1>כניסת משתמש</h1>
-        <table>
+        <table class="loginTable">
             <tr>
-                <td>שם משתמש</td>
+                <td class="title">שם משתמש: </td>
                 <td><input type="text" name="uName" id="uName" /></td>
             </tr>
             <tr>
-                <td>סיסמה</td>
+                <td  class="title">סיסמה: </td>
                 <td><input type="password" name="pw" id="pw" /></td>
             </tr>
             <tr>
                 <td colspan="2" style="text-align: center;">
-                <input type ="submit" name="submit" value="log In"/>
+                <input class="button" type ="submit" name="submit" value="log In"/>
                 </td>
             </tr>
         </table>

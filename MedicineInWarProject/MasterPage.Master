@@ -67,18 +67,15 @@
     .mpH3{
         color: navy;
         text-align: center;
+        font-size: 16pt;
     }
     .clock{
         text-align: center;
         color: navy;
-        font-family: 'Comic Sans MS'
+        font-family: 'Comic Sans MS';
+        font-size: 16pt
     }
-    .link{
-        color: white;
-        font-weight: bold;
-        font-family: Aharoni;
-        text-decoration: none;
-    }
+    a{font-size: 16pt}
     .menuPics{height: 35px; width: 100px}
     .signPics{width: 80px; height: 40px;}
 </style>
@@ -129,7 +126,7 @@
                         <td style="width: 60%; text-align:right">
                             <a href ="mailto:dropipopi@gmail.com">צור קשר - דרור מרגלית</a>
                         </td>
-                        <td style="width: 30%; direction: ltr; text-align: left; font-size:14pt; font-family: Aharoni" >
+                        <td style="width: 30%; direction: ltr; text-align: left; font-size:16pt; font-family: Aharoni" >
                             <%Application["counter"] = (int)Application["counter"] + 1; %>
                             <%=Application["counter"] %>: מונה מבקרים באתר
                         </td>

@@ -145,6 +145,7 @@
     <Content Include="healthFunds.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="hospitels.aspx" />
+    <Content Include="index.html" />
     <Content Include="login.aspx" />
     <Content Include="loginAdmin.aspx" />
     <Content Include="logout.aspx" />
