@@ -125,7 +125,6 @@
     <Content Include="Default.aspx" />
     <Content Include="DeleteRecord.aspx" />
     <Content Include="deleteUser.aspx" />
-    <Content Include="DemoPage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Gallery.aspx" />
     <Content Include="GalleryPics\mainpic.jpg" />
@@ -145,7 +144,6 @@
     <Content Include="healthFunds.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="hospitels.aspx" />
-    <Content Include="index.html" />
     <Content Include="login.aspx" />
     <Content Include="loginAdmin.aspx" />
     <Content Include="logout.aspx" />
@@ -300,13 +298,6 @@
     </Compile>
     <Compile Include="deleteUser.aspx.designer.cs">
       <DependentUpon>deleteUser.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DemoPage.aspx.cs">
-      <DependentUpon>DemoPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DemoPage.aspx.designer.cs">
-      <DependentUpon>DemoPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
