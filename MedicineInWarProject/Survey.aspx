@@ -11,21 +11,21 @@
             <td>
                 <form id="form1"; method="post" >
                     <table class="tableIn" border="1">
-                        <tr><th style="text-align:center;" colspan="2">שאלת הסקר </th></tr>
+                        <tr><th style="text-align:center;" colspan="2">איזה תחום רפואה מועדף עליך? </th></tr>
                         <tr>
-                            <td class="td1">אפשרות א</td>
+                            <td class="td1">בתי חולים</td>
                             <td><input type="radio" name="surv" value="1" checked /></td>
                         </tr>
                         <tr>
-                            <td class="td1">אפשרות ב</td>
+                            <td class="td1">מד"א</td>
                             <td><input type="radio" name="surv" value="2" /></td>
                         </tr>
                         <tr>
-                            <td class="td1">אפשרות ג</td>
+                            <td class="td1">קופות חולים</td>
                             <td><input type="radio" name="surv" value="3" /></td>
                         </tr>
                         <tr>
-                            <td class="td1">אפשרות ד</td>
+                            <td class="td1">אחר</td>
                             <td><input type="radio" name="surv" value="4" /></td>
                         </tr>
                         <tr>
