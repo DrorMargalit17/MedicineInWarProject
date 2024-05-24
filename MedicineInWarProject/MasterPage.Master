@@ -106,6 +106,7 @@
              <a href= 'loginAdmin.aspx'> <img src='menuPics/loginAdminButton.png' class='menuPics' id='admin' onmouseover="showIcon(admin, 'menuPics/loginAdminButton2.png')" onmouseout="showIcon(admin, 'menuPics/loginAdminButton.png')"/></a>
              <a href= 'Gallery.aspx'> <img src='menuPics/galleryButton.png' class='menuPics' id='gallery' onmouseover="showIcon(gallery, 'menuPics/galleryButton2.png')" onmouseout="showIcon(gallery, 'menuPics/galleryButton.png')"/></a>
              <a href= 'Survey.aspx'> <img src='menuPics/survayButton.png' class='menuPics' id='Survey' onmouseover="showIcon(Survey, 'menuPics/survayButton2.png')" onmouseout="showIcon(Survey, 'menuPics/survayButton.png')"/></a>
+             <a href= 'GuessingNumber.aspx'> <img src='menuPics/GuessNumButton.png' class='menuPics' id='game' onmouseover="showIcon(game, 'menuPics/GuessNumButton2.png')" onmouseout="showIcon(game, 'menuPics/GuessNumButton.png')"/></a>
          </td>
      </tr>
      <tr>
@@ -126,9 +127,9 @@
                         <td style="width: 60%; text-align:right">
                             <a href ="mailto:dropipopi@gmail.com">צור קשר - דרור מרגלית</a>
                         </td>
-                        <td style="width: 30%; direction: ltr; text-align: left; font-size:16pt; font-family: Aharoni" >
+                        <td style="width: 30%; direction: ltr; text-align: center; font-size:16pt; font-family: Aharoni" >
                             <%Application["counter"] = (int)Application["counter"] + 1; %>
-                            <%=Application["counter"] %>: מונה מבקרים באתר
+                            <%=Application["counter"] %> :מונה מבקרים באתר
                         </td>
                     </tr>
                 </table>

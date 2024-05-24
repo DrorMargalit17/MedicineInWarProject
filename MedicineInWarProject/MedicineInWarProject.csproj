@@ -141,6 +141,7 @@
     <Content Include="GalleryPics\pic8.jpg" />
     <Content Include="GalleryPics\pic9.jpg" />
     <Content Include="Global.asax" />
+    <Content Include="GuessingNumber.aspx" />
     <Content Include="healthFunds.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="hospitels.aspx" />
@@ -150,18 +151,28 @@
     <Content Include="managerPage.aspx" />
     <Content Include="MDA.aspx" />
     <Content Include="MedicineInWarMainPage.aspx" />
+    <Content Include="menuPics\complexQuery.png" />
+    <Content Include="menuPics\complexQuery2.png" />
+    <Content Include="menuPics\deleteUser.png" />
+    <Content Include="menuPics\deleteUser2.png" />
     <Content Include="menuPics\galleryButton.png" />
     <Content Include="menuPics\galleryButton2.png" />
+    <Content Include="menuPics\GuessNumButton.png" />
+    <Content Include="menuPics\GuessNumButton2.png" />
     <Content Include="menuPics\loginAdminButton.png" />
     <Content Include="menuPics\loginAdminButton2.png" />
     <Content Include="menuPics\logoutButton.png" />
     <Content Include="menuPics\logoutButton2.png" />
     <Content Include="menuPics\managerButton.png" />
     <Content Include="menuPics\managerButton2.png" />
+    <Content Include="menuPics\showTable.png" />
+    <Content Include="menuPics\showTable2.png" />
     <Content Include="menuPics\signInButton.png" />
     <Content Include="menuPics\signInButton2.png" />
     <Content Include="menuPics\signUpButton.png" />
     <Content Include="menuPics\signUpButton2.png" />
+    <Content Include="menuPics\simpleQuery.png" />
+    <Content Include="menuPics\simpleQuery2.png" />
     <Content Include="menuPics\survayButton.png" />
     <Content Include="menuPics\survayButton2.png" />
     <Content Include="menuPics\updateButton.png" />
@@ -308,6 +319,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GuessingNumber.aspx.cs">
+      <DependentUpon>GuessingNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GuessingNumber.aspx.designer.cs">
+      <DependentUpon>GuessingNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="healthFunds.aspx.cs">
       <DependentUpon>healthFunds.aspx</DependentUpon>

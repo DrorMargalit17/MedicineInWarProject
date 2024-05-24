@@ -518,5 +518,13 @@
             </tr>       
         </table>
     </form>
-        <h3><%=msg %></h3>
+        <br />
+    <div>
+    <table class="table" border="1">
+        <%=st %>
+    </table>
+    </div>
+    <h3 style="direction: ltr; text-align: center;"><%= sqlInsert %></h3>
+
+    <h3 style="text-align:center;"><%=msg %></h3>
     </asp:Content>

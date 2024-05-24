@@ -10,6 +10,15 @@
             margin: 5px; /* Margin around each checkbox */
         }
     </style>
+        <style>
+        h1{text-align: center; color: white;}
+        h3{text-align:center; font-size:16pt; font-family: 'Comic Sans MS'; font-weight: bold}
+        input{padding: 10px 50px; margin: 4px 2px; cursor: pointer; border: 2px black solid; text-align: center;}
+        .formTable{margin: 0px auto; border: 2px double black; border-radius:10px;}
+        .title{font-size: 15px; font-family: 'Guttman Yad-Brush';}
+        .header{background-color: black; width: 500px; margin: 0px auto; border-radius:10px;}
+       .formTable1{background-color: darkgray; width: 500px; margin: 0px auto; border-radius:10px;}
+    </style>
 
     <script>
     /*email validation check functions*/
@@ -325,14 +334,18 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>טופס עדכון פרטים</h1>
 <form method="post" runat="server" onsubmit="return chkForm();">
-    <table>
+    <br />
+    <table class="formTable">
+        <tr>
+            <td class="header" colspan="2">
+                <h1>טופס עדכון פרטים</h1>
+            </td>
+        </tr>
         <tr>
             <td>שם משתמש</td>
             <td>
                 <input type="text" name="uName" disabled="disabled" value="<%= uName %>" />
-
             </td>
             <td>
             </td>

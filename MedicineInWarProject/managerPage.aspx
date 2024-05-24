@@ -21,7 +21,14 @@
             }
             i++ 
         }
+
+        function showIcon(icName, icPic) {
+            icName.src = icPic
+        }
     </script>
+    <style>
+        .managerPics{height: 50px}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <center>

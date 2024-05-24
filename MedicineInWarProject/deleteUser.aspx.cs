@@ -18,7 +18,7 @@ namespace MedicineInWarProject
         public string userToDelete = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-    
+
 
             if (Session["admin"].ToString() == "no")
             {
@@ -26,6 +26,7 @@ namespace MedicineInWarProject
                 msg += "<h3>אינך מנהל, אינך רשאי לצפות בדף זה</h3>";
                 msg += "<a href='MedicineInWarMainPage.aspx'>[המשך]</a>";
                 msg += "</div>";
+                Response.Redirect("MedicineInWarMainPage.aspx");
             }
             else
             {
